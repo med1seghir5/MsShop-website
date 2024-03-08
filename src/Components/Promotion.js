@@ -22,7 +22,7 @@ function Promotion(){
 
                 <div className='flex flex-col justify-center items-center text-black font-bold'>
                     <button><Image src={picture1} alt='logo' className='shadow-drop-1-center rounded-2xl w-80 md:w-96'/></button>
-                    <p>PS5 Controler</p>
+                    <p>PS5 Controller</p>
                     <s className='text-[#E03E3E]'>15400 DA</s>
                     <i className='text-[#61f55c]'>10000 DA</i>
                 </div>
