@@ -9,8 +9,8 @@ function FirstPage2(){
     return(
         <main className="mt-16 mb-60 space-y-20 md:mt-28 md:mb-60 md:space-y-24">
             <div className="text-center space-y-4">
-                <div className='text-6xl'>Find the best</div>
-                <div className='text-5xl text-[#1677FF]'>Laptop</div>
+                <div className='text-5xl md:text-6xl '>Find the best</div>
+                <div className='text-3xl md:text-5xl text-[#1677FF]'>Laptop</div>
             </div>
 
             <div className="flex flex-col justify-center items-center space-y-20 md:flex md:flex-row md:justify-center md:items-center md:space-x-16 md:space-y-0">
@@ -18,7 +18,7 @@ function FirstPage2(){
                 <div className='flex flex-col space-y-2'>
                 
                 <button>
-                    <Image src={Back4} alt='logo' className='rounded-2xl w-96 shadow-lg shadow-slate-500'/>
+                    <Image src={Back4} alt='logo' className='rounded-2xl w-80 shadow-lg shadow-slate-500 md:w-96'/>
                 </button>
                     <div className='text-black font-bold text-center'>Macbook Pro 16</div>
                     <div className='text-gray-500 font-bold text-center'>Silver - M1</div>
@@ -30,7 +30,7 @@ function FirstPage2(){
                 <div className='flex flex-col space-y-2'>
                 
                 <button>
-                    <Image src={Back4} alt='logo' className='rounded-2xl w-96 shadow-lg shadow-slate-500' />
+                    <Image src={Back4} alt='logo' className='rounded-2xl w-80 shadow-lg shadow-slate-500 md:w-96' />
                 </button>
                     <div className='text-black font-bold text-center'>Macbook Pro 16</div>
                     <div className='text-gray-500 font-bold text-center'>Silver - M1</div>
@@ -40,7 +40,7 @@ function FirstPage2(){
                 <div className='flex flex-col space-y-2'>
                 
                 <button>
-                    <Image src={Back4} alt='logo' className='rounded-2xl w-96 shadow-lg shadow-slate-500' />
+                    <Image src={Back4} alt='logo' className='rounded-2xl w-80 shadow-lg shadow-slate-500 md:w-96' />
                 </button>
                     <div className='text-black font-bold text-center'>Macbook Pro 16</div>
                     <div className='text-gray-500 font-bold text-center'>Silver - M1</div>

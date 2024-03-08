@@ -7,7 +7,7 @@ import pic2 from "/public/Icon.svg"
 
 function Footer(){
     return(
-        <main className="flex flex-col justify-center items-center border-t-2 border-black space-y-10 mb-72 p-24  md:mb-0 md:flex md:flex-row md:justify-between md:items-center md:border-t-2 md:border-black md:space-x-28 md:p-5">
+        <main className="flex flex-col justify-center items-center border-t-2 border-black space-y-10 p-10 md:mb-0 md:flex md:flex-row md:justify-between md:items-center md:border-t-2 md:border-black md:space-x-28 md:p-5">
             <div className="flex flex-col justify-center items-center">
                 <div className="flex flex-row font-manrope text-5xl">
                     Ms<p className="text-[#1677FF]">Shop</p>

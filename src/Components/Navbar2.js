@@ -13,7 +13,7 @@ function Navbar2(){
 
       <div className='flex flex-col space-y-2 sm:flex-row justify-center items-center sm:space-y-0 sm:space-x-10 font-manrope'>
       <label className='flex flex-nowrap space-x-1'>
-        <input placeholder='Search for a product' id='text' type='text' className='text-center bg-slate-100 rounded-lg shadow-xl w-96' />
+        <input placeholder='Search for a product' id='text' type='text' className='text-center bg-slate-100 rounded-lg shadow-xl w-72 md:w-96' />
         <button><Image src={Union} alt='Search logo'/></button>
       </label>
       </div>
